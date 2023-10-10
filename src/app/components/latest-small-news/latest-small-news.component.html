@@ -1,0 +1,30 @@
+<div class="latest-small-news">
+    <div class="latest-small-news-list">
+        <div class="latest-small-news-image-container">
+            <img class="latest-small-news-image" src="https://quatrorodas.abril.com.br/wp-content/uploads/2023/10/PEUGEOT-208-Turbo-style-2024-1.jpg?quality=70&strip=info&w=600&h=400&crop=1" />
+        </div>
+        <div class="latest-small-news-text-container">
+            <div class="latest-small-news-type">
+                Teste
+            </div>
+            <div class="latest-small-news-image-title">Peugeot 208 Turbo anda mais e gasta menos que HB20, Polo e Onix?</div>
+            <div class="latest-small-news-image-description">Peugeot 208 finalmente estreia um motor 1.0 turbo para encontrar seu espaço entre os hatches compactos mais caros. Mas seu desempenho é o melhor?</div>
+        </div>
+    </div>
+</div>
+<div class="latest-small-other-news">
+    <div class="latest-small-other-news-list">
+        <div class="latest-small-other-news-item" *ngFor="let item of materiaarr; let i = index">
+            <div class="latest-small-other-news-type">
+                {{item.type}}
+            </div>
+            <div class="latest-small-other-news-image-container">
+                <img class="latest-small-other-news-image" src="{{item.image}}" />
+            </div>
+            <div class="latest-small-other-news-text-container">
+                <div class="latest-small-other-news-text-title">{{item.title}}</div>
+                <div class="latest-small-other-news-text-desc">{{item.description}}</div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+.latest-news-container{
+    margin: 3rem 0rem;
+    position: relative;
+    .latest-news-image{
+        width: 99vw;
+        height: 50vw;
+    }
+    .latest-news-layer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 99vw;
+        height: 50vw;
+    }
+
+    .latest-news-text{
+        position: absolute;
+        color: white;
+        text-shadow: -2px -2px #00000081, 1px 1px #00000081;
+        font-family: 'Source Sans Pro',sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+        width: 80rem;
+        height: 15rem;
+        line-height: 6rem;
+        text-align: center;
+    }
+    .latest-news-nickname{
+        position: absolute;
+        color: white;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+    // .latest-news-text{
+    //     background-color: rgba(0, 0, 0, 0.5);
+    //     color: white;
+    //     font-size: 0;
+    // }
